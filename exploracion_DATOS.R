@@ -6,8 +6,8 @@ library(SummarizedExperiment)
 library(ggplot2)
 library(pheatmap)
 
-# Cargar los datos desde archivo CSV
-file_ruta <- "ruta/a/tu/archivo/human_cachexia.csv"  # Cambia la ruta al archivo
+# Cargar los datos desde archivo CSV, 
+file_ruta <- "ruta/a/tu/archivo/human_cachexia.csv"  # Cambia la ruta al archivo desde tu ordenador, en mi caso se descarga a la carpeta de la asigatura en estudio
 cachexia_data <- read.csv(file_ruta, row.names = 1)
 
 # Separación de los datos de metabolitos y los metadatos
