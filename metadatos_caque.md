@@ -9,7 +9,7 @@ Cada muestra en el dataset representa a un paciente. Las filas contienen las obs
 ## Variables Principales
 - **Muscle.loss**: Clasificación de los pacientes en dos grupos:
   - `cachexic`: Pacientes con pérdida muscular (caquexia).
-  - `control`: Pacientes sin pérdida muscular.
+  - `control`: Pacientes sin pérdida muscular, sanos.
   
 - **Metabolitos**: Incluye concentraciones de 63 metabolitos diferentes, tales como:
   - `Alanine`: Concentración de alanina.
@@ -21,7 +21,7 @@ Cada muestra en el dataset representa a un paciente. Las filas contienen las obs
 El dataset está destinado al análisis de patrones de metabolitos asociados con la pérdida muscular en pacientes con cáncer. Este análisis permite investigar los perfiles de metabolitos que se asocian a la caquexia, con el fin de desarrollar herramientas diagnósticas no invasivas.
 
 ## Preprocesamiento Realizado
-- Los datos fueron transpuestos y escalados antes de aplicar el Análisis de Componentes Principales (PCA).
+- Los datos fueron transpuestos y escalados antes de aplicar el Análisis de Componentes Principales (PCA). En el estudio original se realiza transformacion logaritmica para normalizarlos.
 
 ## Notas Adicionales
 Este dataset forma parte de un estudio de aprendizaje automático que explora la relación entre metabolitos y la pérdida muscular en pacientes con cáncer.
