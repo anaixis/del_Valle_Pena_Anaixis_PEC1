@@ -7,7 +7,7 @@ library(ggplot2)
 library(pheatmap)
 
 # Cargar los datos desde archivo CSV
-file_ruta <- "ruta/a/tu/archivo/human_cachexia.csv"  # Cambia la ruta al archivo
+file_ruta <-"C:/Users/Hp/OneDrive/Documentos/Máster en Bioinformática/Asignaturas/III Semestre/Análisis de datos ómicos/PEC 1/metaboData-main/metaboData-main/Datasets/2024-Cachexia/human_cachexia.csv"
 cachexia_data <- read.csv(file_ruta, row.names = 1)
 
 # Separación de los datos de metabolitos y los metadatos
